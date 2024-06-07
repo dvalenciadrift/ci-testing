@@ -1,0 +1,12 @@
+environment: "eu"
+name_prefix: ""
+name_postfix: "-eu-west"
+domain: "eu.drift.com"
+internal_domain: "int.eu.drift.com"
+aws_region: "eu-west-1"
+availability_zones: ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+vpc_cidr: "10.100.0.0/16"
+public_subnet_cidrs: ["10.100.32.0/20", "10.100.96.0/20", "10.100.160.0/20"]
+private_subnet_cidrs: ["10.100.0.0/19", "10.100.64.0/19", "10.100.128.0/19"]
+vpn_client_cidr: "192.168.43.0/24"
+config_service_base_url: "https://config.int.eu.drift.com"
